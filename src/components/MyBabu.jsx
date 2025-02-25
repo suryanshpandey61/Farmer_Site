@@ -1,8 +1,46 @@
 import React from 'react'
+import User from '../assets/user.jpeg'
+ 
 
 function MyBabu() {
   return (
-    <div className='text-white'>MyBabu</div>
+    <div className="w-[80%]  flex items-stretch  mx-auto pt-[4%] gap-x-[2%]">
+
+        {/* left text div  */}
+        <div className='bg-white w-[50%] p-[4%]  rounded-3xl flex flex-col lg:gap-y-[8%]'> 
+          {/* heading div  */}
+          <div>
+            <h1 className=' text-[36px]' style={{ fontFamily: "Protest Strike, sans-serif" }}>
+              Welcome to my babu - Your Personal Bureaucracy Personal Assistant
+            </h1>
+          </div>
+
+          <div className='text-[24px]'>
+            <p>Let my babu help you to navigate the maze of government paperwork effortlessly.</p>
+          </div>
+
+          <div  className='text-[24px]'>
+            <p>Are you tired of waiting in long queues and struggling with confusing forms ?</p>
+          </div>
+
+          <div  className='text-[24px]'>
+            <p>My babu connect you with experianced helpers who understand the ins and out of the government procedure.</p>
+          </div>
+
+          <div className='text-[24px]'>
+            <p>Weather it applying for licenses,filling documents or handling any government related paperwork , we've got you covered.</p>
+          </div>
+        </div>
+
+        {/* right image div  */}
+        <div className=' w-[50%] flex items-stretch lg:h-[800px]'>
+           <img src={User} alt="User Image" 
+           className='rounded-3xl object-cover w-full h-full'
+           />
+        </div>
+
+
+    </div>
   )
 }
 

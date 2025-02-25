@@ -1,10 +1,12 @@
 import React from "react";
-
+import {Link} from "react-scroll";
 function Navbar() {
   return (
     <div className="text-white flex w-[100%] justify-evenly text-[28px] pt-[1%] font-serif">
         <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">My Babu</a>
+            <Link to="mybabu" smooth={true} duration={500}>
+               My Babu
+            </Link>
         </div>
         <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
             <a href="">Babus</a>
