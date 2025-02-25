@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar';
 import MyBabu from './components/MyBabu';
 
 function App() {
   return (
-    <div className="bg-black w-[100vw]">
+    <div className="bg-black w-[100vw] overflow-y-hidden ">
 
       {/* Navbar Component  */}
       <div className=''>
@@ -13,7 +13,7 @@ function App() {
       </div>
 
      {/* MyBabu Component  */}
-      <div id='mybabu'>
+      <div id='mybabu' className=''>
         <MyBabu/>
       </div>
       
