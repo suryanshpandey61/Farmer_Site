@@ -4,10 +4,10 @@ import User from '../assets/user.png'
 
 function MyBabu() {
   return (
-    <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[4%] ">
+    <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
 
         {/* left text div  */}
-        <div className='bg-white w-[50%] p-[4%]  rounded-3xl flex flex-col gap-y-[4%]'> 
+        <div className='bg-white w-[60%] p-[4%]  rounded-3xl flex flex-col '> 
           {/* heading div  */}
           <div>
             <h1 className=' text-[36px]' style={{ fontFamily: "Protest Strike, sans-serif" }}>
@@ -15,27 +15,27 @@ function MyBabu() {
             </h1>
           </div>
 
-          <div className='text-[20px]'>
+          <div className='text-[20px] mt-2'>
             <p>Let my babu help you to navigate the maze of government paperwork effortlessly.</p>
           </div>
 
-          <div  className='text-[20px]'>
+          <div  className='text-[20px] mt-2'>
             <p>Are you tired of waiting in long queues and struggling with confusing forms ?</p>
           </div>
 
-          <div  className='text-[20px]'>
+          <div  className='text-[20px] mt-2'>
             <p>My babu connect you with experianced helpers who understand the ins and out of the government procedure.</p>
           </div>
 
-          <div className='text-[20px]'>
+          <div className='text-[20px] mt-2'>
             <p>Weather it applying for licenses,filling documents or handling any government related paperwork , we've got you covered.</p>
           </div>
         </div>
 
         {/* right image div  */}
-        <div className=' w-[50%]  mt-[4%] flex items-stretch lg:h-[550px]'>
+        <div className=' w-[50%] flex items-stretch mt-[5%] '>
            <img src={User} alt="User Image" 
-           className='rounded-3xl object-cover w-full h-full'
+           className='rounded-3xl object-cover '
            />
         </div>
 
