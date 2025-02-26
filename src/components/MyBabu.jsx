@@ -4,7 +4,7 @@ import PersonalTraits from "../assets/personalTraits.webp"
 
 function MyBabu() {
   return (
-    <div>
+    <div className="">
       {/* Hero Section 1 */}
       <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
         {/* left text div  */}
