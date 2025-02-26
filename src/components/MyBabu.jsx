@@ -1,10 +1,10 @@
 import React from 'react'
-import User from '../assets/user.jpeg'
+import User from '../assets/user.png'
  
 
 function MyBabu() {
   return (
-    <div className="w-[60%] mt-[6%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
+    <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
 
         {/* left text div  */}
         <div className='bg-white w-[50%] p-[4%]  rounded-3xl flex flex-col gap-y-[4%]'> 
@@ -33,7 +33,7 @@ function MyBabu() {
         </div>
 
         {/* right image div  */}
-        <div className=' w-[50%] flex items-stretch lg:h-[600px]'>
+        <div className=' w-[50%]  mt-[4%] flex items-stretch lg:h-[550px]'>
            <img src={User} alt="User Image" 
            className='rounded-3xl object-cover w-full h-full'
            />
