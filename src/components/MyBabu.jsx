@@ -4,7 +4,7 @@ import User from '../assets/user.png'
 
 function MyBabu() {
   return (
-    <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
+    <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[4%] ">
 
         {/* left text div  */}
         <div className='bg-white w-[50%] p-[4%]  rounded-3xl flex flex-col gap-y-[4%]'> 
