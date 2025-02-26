@@ -1,31 +1,41 @@
 import React from "react";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
+import babuLogo from '../assets/babuLogo.svg'
 function Navbar() {
   return (
-    <div className="text-white fixed bg-slate-700 p-4 flex w-[100%] justify-evenly text-[28px] pt-[1%] font-serif">
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <Link to="mybabu" smooth={true} duration={500}>
-               My Babu
+    <div 
+    style={{ fontFamily: "Protest Strike, sans-serif" }}
+    className="text-white  h-[100px] fixed bg-[#12183A] p-4 flex w-[100%] justify-evenly text-[28px] pt-[1%] font-serif">
+        <div className=" flex items-center">
+        <Link to="mybabu" smooth={true} duration={500}>
+            <img src={babuLogo} alt="" className="w-[100px] hover:cursor-pointer hover:scale-150 transition-all duration-500" />
             </Link>
         </div>
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">Babus</a>
+      <div className="flex w-[50%] gap-x-[7%] items-center ">
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <Link to="mybabu" smooth={true} duration={500}>
+            My Babu
+          </Link>
         </div>
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">Services</a>
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <a href="">Babus</a>
         </div>
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">Work</a>
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <a href="">Services</a>
         </div>
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">FAQ</a>
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <a href="">Work</a>
         </div>
-        <div className="text-yellow-400 hover:text-blue-500 hover:underline hover:cursor-pointer">
-            <a href="">Contact</a>
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <a href="">FAQ</a>
         </div>
-        <div className="bg-red-500 px-4 rounded-2xl hover:cursor-pointer hover:bg-green-500 transition-all duration-500">
-           <button>Get Started</button>
+        <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
+          <a href="">Contact</a>
         </div>
+      </div>
+      <div className="bg-slate-500 flex px-4 rounded-2xl hover:cursor-pointer hover:bg-blue-500  transition-all duration-500">
+        <button>Get Started</button>
+      </div>
     </div>
   );
 }

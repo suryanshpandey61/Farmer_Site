@@ -5,7 +5,7 @@ import MyBabu from './components/MyBabu';
 
 function App() {
   return (
-    <div className="bg-black w-[100vw] overflow-y-hidden ">
+    <div className=" w-[100vw] overflow-y-hidden ">
 
       {/* Navbar Component  */}
       <div className=''>
@@ -13,7 +13,7 @@ function App() {
       </div>
 
      {/* MyBabu Component  */}
-      <div id='mybabu' className=''>
+      <div id='mybabu' className='overflow-y-hidden'>
         <MyBabu/>
       </div>
       

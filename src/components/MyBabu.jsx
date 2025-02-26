@@ -4,7 +4,7 @@ import User from '../assets/user.jpeg'
 
 function MyBabu() {
   return (
-    <div className="w-[60%] mt-[2%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%]">
+    <div className="w-[60%] mt-[6%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
 
         {/* left text div  */}
         <div className='bg-white w-[50%] p-[4%]  rounded-3xl flex flex-col gap-y-[4%]'> 
