@@ -62,7 +62,7 @@ function MyBabu() {
       <div className="w-[60%] flex mx-auto pt-[4%] gap-x-[2%] ">
 
         {/* Left image div  */}
-        <div className=" w-[50%] flex items-stretch  ">
+        <div className=" w-[48%] flex items-stretch ml-[3%]  ">
           <img
             src={PersonalTraits}
             alt="User Image"
