@@ -9,7 +9,7 @@ function Navbar() {
         <div className=" flex items-center">
         <Link to="mybabu" smooth={true} duration={500}>
             <img src={babuLogo} alt="" className="w-[100px] hover:cursor-pointer hover:scale-150 transition-all duration-500" />
-            </Link>
+         </Link>
         </div>
       <div className="flex w-[50%] gap-x-[7%] items-center ">
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
@@ -18,7 +18,9 @@ function Navbar() {
           </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
-          <a href="">Babus</a>
+          <Link to="babus" smooth={true} duration={500}>
+            Babus
+          </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
           <a href="">Services</a>

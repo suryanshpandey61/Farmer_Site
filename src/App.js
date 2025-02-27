@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import MyBabu from './components/MyBabu';
+import Babus from './components/Babus';
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
       <div id='mybabu' className='overflow-x-hidden'>
         <MyBabu/>
       </div>
+
+      {/* Babus Component  */}
+      <div id='babus' className='mt-[4%]'>
+        <Babus/>
+      </div>
+    
       
     </div>
   );
