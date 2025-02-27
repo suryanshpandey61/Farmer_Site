@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import MyBabu from './components/MyBabu';
 import Babus from './components/Babus';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -22,6 +23,12 @@ function App() {
       <div id='babus' className='mt-[4%]'>
         <Babus/>
       </div>
+
+      {/* Services Component  */}
+      <div id='services' className='mt-[4%]'>
+        <Services/>
+      </div>
+
     
       
     </div>

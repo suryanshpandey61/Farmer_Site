@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div 
     style={{ fontFamily: "Protest Strike, sans-serif" }}
-    className="text-white  h-[100px] fixed bg-[#12183A] p-4 flex w-[100%] justify-evenly text-[28px] pt-[1%] font-serif">
+    className="text-white z-50 h-[100px] fixed bg-[#12183A] p-4 flex w-[100%] justify-evenly text-[28px] pt-[1%] font-serif">
         <div className=" flex items-center">
         <Link to="mybabu" smooth={true} duration={500}>
             <img src={babuLogo} alt="" className="w-[100px] hover:cursor-pointer hover:scale-150 transition-all duration-500" />
@@ -23,7 +23,9 @@ function Navbar() {
           </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
-          <a href="">Services</a>
+          <Link to="services" smooth={true} duration={500}>
+          Services
+          </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
           <a href="">Work</a>
