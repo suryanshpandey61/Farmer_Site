@@ -36,7 +36,7 @@ function Babus() {
              className='text-black mt-[5%] text-[2rem] flex justify-center' 
              style={{ fontFamily: "Protest Strike, sans-serif" }}
             >Always Updated</h1>
-            <p className='text-[1.5rem] text-slate-500 '>
+            <p className='text-[1.5rem] text-slate-400 '>
             Staying ahead with the latest government processes.
             Always be updated with status.
             </p>
