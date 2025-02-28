@@ -37,8 +37,8 @@ function Navbar() {
           <a href="">Contact</a>
         </div>
       </div>
-      <div className="bg-slate-500 flex px-4 rounded-2xl hover:cursor-pointer hover:bg-blue-500  transition-all duration-500">
-        <button>Get Started</button>
+      <div className="bg-slate-500  flex px-4 rounded-2xl hover:cursor-pointer hover:bg-blue-500  transition-all duration-500">
+        <button className="text-[26px]">Get Started</button>
       </div>
     </div>
   );
