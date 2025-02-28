@@ -54,7 +54,7 @@ function Services() {
       {/* 4 Card of Services */}
       <div className="grid grid-cols-2 mx-auto w-[70%] mt-[4%] gap-x-[2%] gap-y-[5%] ">
         <div
-          className="object-cover object-center h-[400px] bg-no-repeat p-5 rounded-lg transition-all duration-500 ease-in-out hover:bg-[size:120%] hover:cursor-pointer"
+          className="object-cover object-center h-[400px] bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
           style={{ backgroundImage: `url(${DocumentAssistant})` }}
         >
           <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
