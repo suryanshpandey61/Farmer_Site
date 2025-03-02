@@ -1,6 +1,12 @@
 import React from "react";
 import { FcBusinessContact } from "react-icons/fc";
 import ContactUsImage from "../assets/contactUsImage.png";
+import { GrNavigate } from "react-icons/gr";
+import { Link } from "react-scroll";
+import { FaInstagram } from "react-icons/fa";
+import { CiFacebook } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+import { CiYoutube } from "react-icons/ci";
 
 function Contactus() {
   return (
@@ -103,16 +109,90 @@ function Contactus() {
       </div>
 
       {/* get in touch  Social  Media Icons   div , Quick links */}
-      <div>
-        {/* Get In touch Div  */}
-        <div>
-                get in touch
+      <div className="bg-[#12183A] mt-[2%]">
+        {/* Quick Links  Div  */}
+        <div className="w-[100%]">
+          <div className="flex mx-auto justify-center items-center gap-x-[1%]  pt-[2%]">
+            <h1 className="text-white text-[3rem] font-bold">Navigate</h1>
+            <GrNavigate className="text-[3rem] text-white" />
+          </div>
+          {/* links div  */}
+          <div className="text-white gap-x-[5%] mt-[2%] flex  justify-center text-[1.5rem] ">
+            <div>
+              <Link
+                to="mybabu"
+                smooth={true}
+                duration={500}
+                className="hover:underline hover:cursor-pointer transition-all duration-500 hover:text-slate-400"
+              >
+                My Babu
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="hover:underline hover:cursor-pointer transition-all duration-500 hover:text-slate-400"
+                to="babus"
+                smooth={true}
+                duration={500}
+              >
+                Babus
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="hover:underline hover:cursor-pointer transition-all duration-500 hover:text-slate-400"
+                to="services"
+                smooth={true}
+                duration={500}
+              >
+                Services
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="hover:underline hover:cursor-pointer transition-all duration-500 hover:text-slate-400"
+                to="work"
+                smooth={true}
+                duration={500}
+              >
+                Work
+              </Link>
+            </div>
+            <div>
+              <Link
+                className="hover:underline hover:cursor-pointer transition-all duration-500 hover:text-slate-400"
+                to="faq"
+                smooth={true}
+                duration={500}
+              >
+                FAQ
+              </Link>
+            </div>
+          </div>
         </div>
-        {/* quick links div  */}
-        <div>
-            quick links div 
+        {/* Copyrigth and Socia media links icons div  */}
+        <div className="w-[80%] flex justify-between items-center mx-auto mt-[2%] pb-[4%]">
+          {/* left div for icons  */}
+          <div className="flex w-[50%] text-white text-[2rem] gap-x-[4%]">
+            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+              <FaInstagram />
+            </div>
+            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+              <CiFacebook />
+            </div>
+            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+              <FaXTwitter />
+            </div>
+            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+              <CiYoutube />
+            </div>
+          </div>
+
+          {/* rigth div for copyrights  */}
+          <div className="text-white text-[1.5rem]">
+              Copyright:   "© 2025 mybabu. All rights reserved."
+          </div>
         </div>
-        
       </div>
     </div>
   );
