@@ -2,7 +2,7 @@ import React from "react";
 import ServiceImage from "../assets/ServicesImage.jpg";
 import DocumentAssistant from "../assets/DocumentsApprove.jpeg";
 import PersonalizedSupport from "../assets/PersonalizedSupport.jpg";
-import ProcessConsultation from "../assets/ProcessConsultation.jpg";
+import ProcessConsultation from "../assets/ProcessConsultation.jpeg";
 import ApplicationReview from "../assets/ApplicationReview.jpeg";
 function Services() {
   return (
@@ -61,7 +61,7 @@ function Services() {
           <p className="text-[1.2rem] text-slate-500">Babu will fill out forms, ensuring all required documents are complete, and avoiding common mistakes.</p>
         </div>
         <div
-          className="object-cover object-center h-[400px]  p-5 rounded-lg"
+          className="  h-[400px]  bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ProcessConsultation})` }}
         >
           <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Process Consultation</h1>

@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import MyBabu from './components/MyBabu';
 import Babus from './components/Babus';
 import Services from './components/Services';
+import Work from './components/Work';
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -28,6 +30,14 @@ function App() {
       <div id='services' className='mt-[4%]'>
         <Services/>
       
+      </div>
+
+      <div id='work' className='mt-[4%]'>
+        <Work/>
+      </div>
+
+      <div id='faq' className='mt-[4%]'>
+        <FAQ/>
       </div>
 
     

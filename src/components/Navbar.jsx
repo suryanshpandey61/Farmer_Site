@@ -28,10 +28,14 @@ function Navbar() {
           </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
-          <a href="">Work</a>
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
-          <a href="">FAQ</a>
+          <Link to="faq" smooth={true} duration={500}>
+           FAQ
+          </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
           <a href="">Contact</a>
