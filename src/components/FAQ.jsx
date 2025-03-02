@@ -48,7 +48,7 @@ function FAQ() {
         </div>
 
         {/* questions grid  */}
-        <div className='w-[80%] mx-auto mt-[4%]'>
+        <div className='w-[80%] mx-auto mt-[4%] pb-[4%]'>
             <Faq
                 data={data}
                 styles={styles}

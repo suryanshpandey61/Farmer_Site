@@ -38,7 +38,9 @@ function Navbar() {
           </Link>
         </div>
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
-          <a href="">Contact</a>
+          <Link to="contactus" smooth={true} duration={500}>
+           Contact Us
+          </Link>
         </div>
       </div>
       <div className="bg-slate-500  flex px-4 rounded-2xl hover:cursor-pointer hover:bg-blue-500  transition-all duration-500">

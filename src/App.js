@@ -6,6 +6,7 @@ import Babus from './components/Babus';
 import Services from './components/Services';
 import Work from './components/Work';
 import FAQ from './components/FAQ';
+import Contactus from './components/Contactus';
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
 
       <div id='faq' className='mt-[4%]'>
         <FAQ/>
+      </div>
+
+      <div id='contactus' className='mt-[4%]'>
+        <Contactus/>
       </div>
 
     
