@@ -6,7 +6,7 @@ import ProcessConsultation from "../assets/ProcessConsultation.jpg";
 import ApplicationReview from "../assets/ApplicationReview.jpeg";
 function Services() {
   return (
-    <div className="overflow-y-hidden">
+    <div className="overflow-y-hidden ">
       {/* Image div with text  */}
       <div
         className="h-[600px] bg-cover bg-center"
@@ -68,7 +68,7 @@ function Services() {
           <p className="text-[1.2rem] text-black">Step-by-step instructions on navigating government procedures, including licensing, permits, and registrations</p>
         </div>
         <div
-          className="object-cover hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
+          className="object-cover h-[400px] hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ApplicationReview})` }}
         >
           <h1 className="text-[2rem]  text-white font-bold flex  hover:cursor-pointer hover:text-yellow-300">Application Review</h1>

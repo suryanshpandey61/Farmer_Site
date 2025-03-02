@@ -12,8 +12,8 @@ function MyBabu() {
           {/* heading div  */}
           <div>
             <h1
-              className=" text-[36px]"
-              style={{ fontFamily: "Protest Strike, sans-serif" }}
+              className=" font-sans  text-[36px]"
+              // style={{ fontFamily: "Protest Strike, sans-serif" }}
             >
               Welcome to my babu - Your Personal Bureaucracy Personal Assistant
             </h1>
@@ -75,21 +75,21 @@ function MyBabu() {
             {/* heading div  */}
             <div className="w-full">
               <h1
-                className=" text-[36px]  flex justify-center"
-                style={{ fontFamily: "Protest Strike, sans-serif" }}
+                className=" text-[36px] font-sans flex justify-center"
+                // style={{ fontFamily: "Protest Strike, sans-serif" }}
               >
                 Who We Are
               </h1>
             </div>
 
-            <div className="text-[20px] mt-2 flex justify-center">
+            <div className="text-[20px] font-sans mt-2 flex justify-center">
               <p>
                 At mybabu, we believe that dealing with government paperwork
                 shouldn’t be a hassle.
               </p>
             </div>
 
-            <div className="text-[20px] mt-2">
+            <div className="text-[20px] mt-2 font-sans">
               <p>
                 Founded with the vision of simplifying bureaucracy for every
                 Indian citizen, our platform bridges the gap between you and
@@ -97,7 +97,7 @@ function MyBabu() {
               </p>
             </div>
 
-            <div className="text-[20px] mt-2">
+            <div className="text-[20px] mt-2 font-sans">
               <p>
                 Our trusted network of 'Babus' (paperwork assistants) are here
                 to guide you every step of the way.
