@@ -23,25 +23,25 @@ function App() {
       </div>
 
       {/* Babus Component  */}
-      <div id='babus' className='mt-[4%]'>
+      <div id='babus' className='pt-[7%]  '>
         <Babus/>
       </div>
 
       {/* Services Component  */}
-      <div id='services' className='mt-[4%]'>
+      <div id='services' className='pt-[7%]'>
         <Services/>
       
       </div>
 
-      <div id='work' className='mt-[4%]'>
+      <div id='work' className='pt-[7%]'>
         <Work/>
       </div>
 
-      <div id='faq' className='mt-[4%]'>
+      <div id='faq' className='pt-[7%]'>
         <FAQ/>
       </div>
 
-      <div id='contactus' className='mt-[4%]'>
+      <div id='contactus' className='pt-[7%]'>
         <Contactus/>
       </div>
 

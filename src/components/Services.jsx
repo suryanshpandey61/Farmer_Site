@@ -54,28 +54,28 @@ function Services() {
       {/* 4 Card of Services */}
       <div className="grid grid-cols-2 mx-auto w-[70%] mt-[4%] gap-x-[2%] gap-y-[5%] ">
         <div
-          className="object-cover object-center h-[400px] bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
+          className="object-cover object-center  bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
           style={{ backgroundImage: `url(${DocumentAssistant})` }}
         >
           <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
           <p className="text-[1.2rem] text-black">Babu will fill out forms, ensuring all required documents are complete, and avoiding common mistakes.</p>
         </div>
         <div
-          className="  h-[400px] hover:cursor-pointer bg-no-repeat p-5 rounded-lg"
+          className="  hover:cursor-pointer bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ProcessConsultation})` }}
         >
           <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Process Consultation</h1>
           <p className="text-[1.2rem] text-black">Step-by-step instructions on navigating government procedures, including licensing, permits, and registrations</p>
         </div>
         <div
-          className="object-cover hover:cursor-pointer object-center h-[400px] bg-no-repeat p-5 rounded-lg"
+          className="object-cover hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ApplicationReview})` }}
         >
           <h1 className="text-[2rem]  text-white font-bold flex  hover:cursor-pointer hover:text-yellow-300">Application Review</h1>
           <p className="text-[1.2rem] text-black font-semibold">Expert verification and corrections of your paperwork to increase the success rate of your applications</p>
         </div>
         <div
-          className="object-cover hover:cursor-pointer object-center h-[400px] bg-no-repeat p-5 rounded-lg"
+          className="object-cover hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${PersonalizedSupport})` }}
         >
         <h1 className="text-[2rem]  text-white font-bold flex hover:cursor-pointer hover:text-yellow-300">Personalized Support</h1>

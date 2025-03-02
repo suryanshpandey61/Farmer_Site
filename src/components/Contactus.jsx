@@ -190,7 +190,7 @@ function Contactus() {
 
           {/* rigth div for copyrights  */}
           <div className="text-white text-[1.5rem]">
-              Copyright:   "© 2025 mybabu. All rights reserved."
+              Copyright: © 2025 MyBabu. All rights reserved.
           </div>
         </div>
       </div>

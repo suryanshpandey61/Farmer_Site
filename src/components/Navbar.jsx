@@ -11,7 +11,7 @@ function Navbar() {
             <img src={babuLogo} alt="" className="w-[100px] hover:cursor-pointer hover:scale-150 transition-all duration-500" />
          </Link>
         </div>
-      <div className="flex w-[50%] gap-x-[7%] items-center ">
+      <div className="flex w-[70%] justify-center gap-x-[7%] items-center ">
         <div className="text-white hover:text-orange-400  hover:cursor-pointer transition-all duration-200">
           <Link to="mybabu" smooth={true} duration={500}>
             My Babu
