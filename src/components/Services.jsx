@@ -52,13 +52,13 @@ function Services() {
       </div>
 
       {/* 4 Card of Services */}
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 mx-auto lg:w-[70%]  mt-[4%] gap-x-[2%] gap-y-[2%] ">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 mx-auto lg:w-[70%] w-[90%]  mt-[4%] gap-x-[2%] gap-y-[2%] ">
         {/* 1 Card  */}
         <div
           className="object-cover object-center    bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
           style={{ backgroundImage: `url(${DocumentAssistant})` }}
         >
-          <h1 className="lg:text-[2rem] text-[1.5rem] text-white font-bold flex md:mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
+          <h1 className="lg:text-[2rem] text-[2.2rem] text-white font-bold flex md:mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
           <p className="lg:text-[1.2rem] text-[1rem] text-black">Babu will fill out forms, ensuring all required documents are complete, and avoiding common mistakes.</p>
         </div>
         {/* 2 Card  */}
@@ -83,7 +83,7 @@ function Services() {
           style={{ backgroundImage: `url(${PersonalizedSupport})` }}
         >
         <h1 className="text-[2rem]  text-white font-bold flex hover:cursor-pointer hover:text-yellow-300">Personalized Support</h1>
-        <p className="text-[1.2rem] text-slate-500">One-on-one support via chat or in-person to answer your queries and provide timely assistance.</p>
+        <p className="text-[1.2rem] mb-10 text-slate-500">One-on-one support via chat or in-person to answer your queries and provide timely assistance.</p>
         </div>
       </div>
     </div>

@@ -12,20 +12,20 @@ function Contactus() {
   return (
     <div className="w-[100%] ">
       {/* contact from & image Div  */}
-      <div className="w-[80%] gap-x-[4%] flex bg-[#F7F1E7] p-[2%] border border-green-400 rounded-lg mx-auto">
+      <div className="md:w-[80%] w-[90%] gap-x-[4%] flex bg-[#F7F1E7] p-[2%] border border-green-400 rounded-lg mx-auto">
         {/* left side form div  */}
         <div className="w-[60%]">
           {/* heading div  */}
           <div className="flex gap-x-[5%] items-center">
-            <h1 className="text-[3.2rem]">Contact Us</h1>
-            <FcBusinessContact className="text-[4rem]" />
+            <h1 className="md:text-[3.2rem] text-[1.5rem]">Contact Us</h1>
+            <FcBusinessContact className="md:text-[4rem] text-[2rem]" />
           </div>
           {/* mail div    */}
           <div className="mt-[5%] text-slate-400">
-            <p className="text-[2.1rem] text-slate-400">
+            <p className="md:text-[2.1rem] text-[1.2rem] text-slate-400">
               Talk to our Best Team
             </p>
-            <p className="text-[1.5rem] mt-[3%]">
+            <p className="md:text-[1.5rem] text-[1rem] mt-[3%]">
               For Enquiry , Suggestion or any Updation connect with
               <span className="text-red-700"> support@mybabu.xyz</span>
             </p>
@@ -33,24 +33,24 @@ function Contactus() {
           <div className="mt-[6%]">
             <form action="">
               {/* Name & Mail Div  */}
-              <div className="w-[100%] gap-x-[2%] flex">
+              <div className="w-[100%] md:gap-x-[2%] gap-y-[1%] flex md:flex-row flex-col">
                 {/* Name input div  */}
-                <div className="w-[50%]">
+                <div className="md:w-[50%] w-[100%]">
                   <input
                     type="text"
                     name="name"
                     placeholder="Name"
-                    className=" border w-[100%] border-green-400 rounded-md h-[4rem] pl-[2%] text-[1.5rem]"
+                    className=" border w-[100%] border-green-400 rounded-md h-[2rem] md:h-[4rem] pl-[2%] text-[0.8rem] mb-2 md:text-[1.5rem]"
                   />
                 </div>
                 {/* mail input div  */}
-                <div className="w-[50%]">
+                <div className="md:w-[50%] w-[100%]">
                   <input
                     type="email"
                     name="email"
                     id=""
                     placeholder="E-mail"
-                    className="w-[100%] border border-green-400 rounded-md h-[4rem] pl-[2%] text-[1.5rem]"
+                    className="w-[100%]  border border-green-400 rounded-md h-[2rem] md:h-[4rem] pl-[2%] text-[0.8rem] md:text-[1.5rem]"
                   />
                 </div>
               </div>
@@ -60,7 +60,7 @@ function Contactus() {
                   type="number"
                   name="phone-number"
                   id=""
-                  className="number-input appearance-none border w-[100%] border-green-400 rounded-md h-[4rem] pl-[2%] text-[1.5rem]"
+                  className="number-input appearance-none border w-[100%] border-green-400 rounded-md h-[2rem] md:h-[4rem] pl-[2%] text-[0.8rem] md:text-[1.5rem]"
                   placeholder="+91-8855883388"
                 />
               </div>
@@ -69,7 +69,7 @@ function Contactus() {
                 <input
                   type="textarea"
                   name="textarea"
-                  className=" border w-[100%] border-green-400 rounded-md h-[4rem] pl-[2%] text-[1.5rem]"
+                  className=" border w-[100%] border-green-400 rounded-md h-[2rem] md:h-[4rem] pl-[2%] text-[0.8rem] md:text-[1.5rem]"
                   placeholder="Write Some Message"
                 />
               </div>
@@ -99,7 +99,7 @@ function Contactus() {
         </div>
 
         {/* rigth side image div  */}
-        <div className="w-[40%] border border-green-400 rounded-lg">
+        <div className="md:w-[40%] w-[30%]   rounded-lg">
           <img
             src={ContactUsImage}
             alt="Contact Us Image"
@@ -113,11 +113,11 @@ function Contactus() {
         {/* Quick Links  Div  */}
         <div className="w-[100%]">
           <div className="flex mx-auto justify-center items-center gap-x-[1%]  pt-[2%]">
-            <h1 className="text-white text-[3rem] font-bold">Navigate</h1>
-            <GrNavigate className="text-[3rem] text-white" />
+            <h1 className="text-white md:text-[3rem] text-[2rem] font-bold">Navigate</h1>
+            <GrNavigate className="md:text-[3rem] text-[2rem] text-white" />
           </div>
           {/* links div  */}
-          <div className="text-white gap-x-[5%] mt-[2%] flex  justify-center text-[1.5rem] ">
+          <div className="text-white w-[100%] gap-x-[3%] md:gap-x-[5%] mt-[2%] flex  justify-center text-[1rem] md:text-[1.5rem] ">
             <div>
               <Link
                 to="mybabu"
@@ -171,9 +171,9 @@ function Contactus() {
           </div>
         </div>
         {/* Copyrigth and Socia media links icons div  */}
-        <div className="w-[80%] flex justify-between items-center mx-auto mt-[2%] pb-[4%]">
+        <div className="w-[80%]  flex md:flex-row flex-col justify-between items-center mx-auto mt-[2%] pb-[4%]">
           {/* left div for icons  */}
-          <div className="flex w-[50%] text-white text-[2rem] gap-x-[4%]">
+          <div className="flex mb-2 w-[50%] text-white text-[1.5rem] md:text-[2rem] gap-x-[6%] md:gap-x-[4%]">
             <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
               <FaInstagram />
             </div>
@@ -189,7 +189,7 @@ function Contactus() {
           </div>
 
           {/* rigth div for copyrights  */}
-          <div className="text-white text-[1.5rem]">
+          <div className="text-white md:text-[1.5rem] text-[0.8rem] ">
               Copyright: © 2025 MyBabu. All rights reserved.
           </div>
         </div>

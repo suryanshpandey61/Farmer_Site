@@ -7,8 +7,8 @@ import { GiProgression } from "react-icons/gi";
 function Work() {
   return (
     <div className="w-[100%] overflow-hidden">
-      <div className="work-bg">
-        <h1 className="flex md:text-[4rem] text-[2rem] font-serif justify-center lg:pt-[5%]">
+      <div className="work-bg mb-7">
+        <h1 className="flex md:text-[4rem]  text-[2rem] font-serif justify-center lg:pt-[5%]">
           How My Babu Works
         </h1>
         <div className="flex justify-center pb-[5%] mt-[2%]">
@@ -32,7 +32,7 @@ function Work() {
         </div>
       </div>
 
-      <div className="mt-[2%] grid gap-x-[1%] gap-y-[2%] md:grid-cols-4  sm:grid-cols-1 w-[80%] mx-auto">
+      <div className="mt-[2%] grid gap-x-[1%] gap-y-[2%] md:grid-cols-4  sm:grid-cols-1 w-[95%] mx-auto">
         {/* Work Card 1 */}
         <div className="p-4 hover:cursor-pointer hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
@@ -50,8 +50,8 @@ function Work() {
         {/* Work Card 2  */}
         <div className="p-4 hover:cursor-pointer hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
-            <h1 className="text-slate-500 text-[2rem] font-bold">Expert Matching</h1>
-            <GrUserExpert className="text-[3rem] lg:mt-[6%]" />
+            <h1 className="text-slate-500 text-[2.2rem] font-bold">Expert Matching</h1>
+            <GrUserExpert className="text-[3rem] lg:mt-[6%] md:ml-0 ml-[-20%]" />
        
           </div>
           <div className="lg:mt-[4%] text-[1.2rem]">
@@ -66,7 +66,7 @@ function Work() {
         <div className="p-4 hover:cursor-pointer hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
             <h1 className="text-slate-500 text-[2rem] font-bold">Receive Assistance</h1>
-            <FcAssistant className="text-[3rem] lg:mt-[6%]"/>
+            <FcAssistant className="text-[3rem] lg:mt-[6%] md:ml-[-20%]"/>
             
           </div>
           <div className="lg:mt-[4%] text-[1.2rem]">
@@ -76,7 +76,7 @@ function Work() {
           </div>
         </div>
         {/* Work Card 4 */}
-        <div className="p-4 hover:cursor-pointer h-[300px] hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
+        <div className="p-4 hover:cursor-pointer mb-12 md:mb-0 lg:mb-0 xl:mb-0 hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
             <h1 className="text-slate-500 text-[2rem] font-bold">Track Your Progress</h1>
             <GiProgression  className="text-[3rem] lg:mt-[6%]" />

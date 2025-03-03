@@ -6,7 +6,7 @@ function MyBabu() {
   return (
     <div className="">
       {/* Hero Section 1 */}
-      <div className="lg:w-[60%] md:w-[70%] sm:w-[40%] md:mt-[8%] sm:mt-[10%] mt-[18%] lg:mt-[6%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
+      <div className="lg:w-[60%] md:w-[70%] w-[90%] sm:w-[40%] md:mt-[8%] sm:mt-[10%] mt-[18%] lg:mt-[6%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
         {/* left text div  */}
         <div className="bg-white md:w-[80%] sm:w-[40%] lg:w-[60%] p-[4%]  rounded-3xl flex flex-col ">
           {/* heading div  */}
@@ -60,9 +60,9 @@ function MyBabu() {
 
       {/* Hero Section 2  */}
       <div className="bg-[#F8F7F1]">
-        <div className="lg:w-[60%]  md:w-[70%] sm:w-[80%] pb-[4%] flex mx-auto pt-[4%] gap-x-[2%]">
+        <div className="lg:w-[60%] w-[90%] md:w-[70%] sm:w-[80%] pb-[4%] flex mx-auto pt-[4%] gap-x-[2%]">
           {/* Left image div  */}
-          <div className=" sm:w-[30%]  md:w-[60%] lg:w-[50%] flex items-stretch ">
+          <div className=" sm:w-[30%] md:ml-[3%] md:w-[60%] lg:w-[50%] flex items-stretch ">
             <img
               src={PersonalTraits}
               alt="User Image"
