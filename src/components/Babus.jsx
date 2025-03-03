@@ -12,9 +12,9 @@ function Babus() {
            <div className='bg-[#FAEBDC] hover:cursor-pointer rounded-xl p-5 hover:shadow-3xl hover:scale-105 duration-300 transition-all '>
             <img src={TrustImage} alt="Trust Image" className='rounded-xl'  />
               <h1 
-              className='text-black  font-bold  text-[2rem] font-sans mt-[5%] flex justify-center' 
+              className='text-black  font-bold md:text-[1.5rem] text-[1.2rem] lg:text-[2rem] font-sans mt-[5%] flex justify-center' 
               >Trust</h1>
-              <p className='text-[1.5rem] text-slate-500 '>
+              <p className='lg:text-[1.5rem] md:text-[1.2rem] text-[1rem] text-slate-500 '>
               Your dependable guide through every paperwork hurdle.
               </p>
             </div>
@@ -22,9 +22,9 @@ function Babus() {
            <div className='bg-[#FAEBDC] hover:cursor-pointer rounded-xl p-5 hover:shadow-3xl hover:scale-105 duration-300 transition-all '>
             <img src={ExpertImage} alt="Expert Images" className=' rounded-xl' />
             <h1
-             className='text-black  font-bold  mt-[5%] text-[2rem] font-sans flex justify-center'
+             className='text-black  font-bold md:text-[1.5rem] text-[1.2rem] lg:text-[2rem] font-sans mt-[5%] flex justify-center'
             >Expertise</h1>
-            <p className='text-[1.5rem] text-slate-500 '>
+            <p className='lg:text-[1.5rem] md:text-[1.2rem] text-[1rem] text-slate-500  '>
             Insightful support from seasoned professionals.
             </p>
            </div>
@@ -32,20 +32,20 @@ function Babus() {
            <div className='bg-[#FAEBDC] hover:cursor-pointer rounded-xl p-5 hover:shadow-3xl hover:scale-105 duration-300 transition-all'>
             <img src={AlwaysUpdated} alt="Always Updated Images" className='rounded-xl'/>
             <h1
-             className='text-black mt-[5%] text-[2rem]  font-bold  flex justify-center font-sans' 
+             className='text-black  font-bold md:text-[1.5rem] text-[1.2rem] lg:text-[2rem] font-sans mt-[5%] flex justify-center' 
             >Always Updated</h1>
-            <p className='text-[1.5rem] text-slate-500 '>
+            <p className='lg:text-[1.5rem] md:text-[1.2rem]  sm:text-[0.8rem]   text-slate-500 '>
             Staying ahead with the latest government processes.
-            Always be updated with status.
+            {/* Always be updated with status. */}
             </p>
            </div>
            {/* Card 4 */}
            <div className='bg-[#FAEBDC] z-auto hover:cursor-pointer rounded-xl p-5 hover:shadow-3xl hover:scale-105 duration-300 transition-all'>
             <img src={ReducedTimeImage} alt="Reduced Time Image"  className='rounded-xl'/>
             <h1
-             className='text-black mt-[5%] text-[2rem] flex font-sans  font-bold justify-center' 
+             className='text-black  font-bold md:text-[1.5rem] text-[1.2rem] lg:text-[2rem] font-sans mt-[5%] flex justify-center' 
              >Reduce Time Wastage</h1>
-             <p className='text-[1.5rem] text-slate-500 '>
+             <p className='lg:text-[1.5rem] md:text-[1.2rem] text-[1rem] text-slate-500 '>
              Streamlining your tasks to save precious time.
              </p>
            </div>

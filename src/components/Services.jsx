@@ -9,23 +9,23 @@ function Services() {
     <div className="overflow-y-hidden ">
       {/* Image div with text  */}
       <div
-        className="h-[600px] bg-cover bg-center"
+        className="lg:h-[600px] md:h-[400px] h-[300px] bg-cover bg-center"
         style={{ backgroundImage: `url(${ServiceImage})` }}
       >
-        <h1 className="text-[4rem] relative flex justify-center font-bold pt-[5%]">
-          Our Services
+        <h1 className="lg:text-[4rem] md:text-[3rem] text-[2.5rem] relative flex justify-center font-bold pt-[5%]">
+          Our Services 
         </h1>
 
-        <p className="text-[1.5rem] text-white relative flex justify-center font-bold pt-[2%]">
+        <p className="lg:text-[1.5rem] text-[1rem] text-white relative flex justify-center font-bold pt-[2%]">
           Mybabu offers a range of
         </p>
-        <p className="text-[1.5rem] text-white relative flex justify-center font-bold">
+        <p className="lg:text-[1.5rem] text-[1rem] text-white relative flex justify-center font-bold">
           services tailored to your needs.
         </p>
-        <p className="text-[1.5rem] text-white relative flex justify-center font-bold ">
+        <p className="lg:text-[1.5rem] text-[1rem] text-white relative flex justify-center font-bold ">
           Our experts help you with:
         </p>
-        <div className="mt-[5%] gap-x-[2%] flex justify-center">
+        <div className="mt-[5%] gap-x-[2%] flex  justify-center">
           {/* Get Started Btn  */}
           <button class="cssbuttons-io-button">
             Get started
@@ -52,30 +52,34 @@ function Services() {
       </div>
 
       {/* 4 Card of Services */}
-      <div className="grid grid-cols-2 mx-auto w-[70%] mt-[4%] gap-x-[2%] gap-y-[5%] ">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 mx-auto lg:w-[70%]  mt-[4%] gap-x-[2%] gap-y-[2%] ">
+        {/* 1 Card  */}
         <div
-          className="object-cover object-center  bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
+          className="object-cover object-center    bg-no-repeat p-5 rounded-lg  hover:cursor-pointer"
           style={{ backgroundImage: `url(${DocumentAssistant})` }}
         >
-          <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
-          <p className="text-[1.2rem] text-black">Babu will fill out forms, ensuring all required documents are complete, and avoiding common mistakes.</p>
+          <h1 className="lg:text-[2rem] text-[1.5rem] text-white font-bold flex md:mt-[50%] hover:cursor-pointer hover:text-yellow-300">Document Assistant</h1>
+          <p className="lg:text-[1.2rem] text-[1rem] text-black">Babu will fill out forms, ensuring all required documents are complete, and avoiding common mistakes.</p>
         </div>
+        {/* 2 Card  */}
         <div
           className="  hover:cursor-pointer bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ProcessConsultation})` }}
         >
-          <h1 className="text-[2rem] text-white font-bold flex mt-[50%] hover:cursor-pointer hover:text-yellow-300">Process Consultation</h1>
+          <h1 className="text-[2rem] text-white font-bold flex md:mt-[50%] hover:cursor-pointer hover:text-yellow-300">Process Consultation</h1>
           <p className="text-[1.2rem] text-black">Step-by-step instructions on navigating government procedures, including licensing, permits, and registrations</p>
         </div>
+        {/* 3 Card  */}
         <div
-          className="object-cover h-[400px] hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
+          className="object-cover md:h-[400px] hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${ApplicationReview})` }}
         >
           <h1 className="text-[2rem]  text-white font-bold flex  hover:cursor-pointer hover:text-yellow-300">Application Review</h1>
           <p className="text-[1.2rem] text-black font-semibold">Expert verification and corrections of your paperwork to increase the success rate of your applications</p>
         </div>
+        {/* 4 Card  */}
         <div
-          className="object-cover hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
+          className="object-cover md:h-[400px] hover:cursor-pointer object-center bg-no-repeat p-5 rounded-lg"
           style={{ backgroundImage: `url(${PersonalizedSupport})` }}
         >
         <h1 className="text-[2rem]  text-white font-bold flex hover:cursor-pointer hover:text-yellow-300">Personalized Support</h1>

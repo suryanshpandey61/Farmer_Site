@@ -8,10 +8,10 @@ function Work() {
   return (
     <div className="w-[100%] overflow-hidden">
       <div className="work-bg">
-        <h1 className="flex text-[4rem] font-serif justify-center lg:pt-[5%]">
+        <h1 className="flex md:text-[4rem] text-[2rem] font-serif justify-center lg:pt-[5%]">
           How My Babu Works
         </h1>
-        <div className="flex justify-center lg:pb-[5%] mt-[2%]">
+        <div className="flex justify-center pb-[5%] mt-[2%]">
           <button class="cssbuttons-io-button">
             Get started
             <div class="icon">
@@ -32,7 +32,7 @@ function Work() {
         </div>
       </div>
 
-      <div className="mt-[2%] grid gap-x-[1%] md:grid-cols-4  sm:grid-cols-1 w-[80%] mx-auto">
+      <div className="mt-[2%] grid gap-x-[1%] gap-y-[2%] md:grid-cols-4  sm:grid-cols-1 w-[80%] mx-auto">
         {/* Work Card 1 */}
         <div className="p-4 hover:cursor-pointer hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
