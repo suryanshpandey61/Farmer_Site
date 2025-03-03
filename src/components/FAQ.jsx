@@ -4,8 +4,8 @@ import Faq from "react-faq-component";
 const data = {
     rows: [
         {
-            title: "What is mybabu?",
-            content: `mybabu is an online platform that connects you with experts to help you complete government paperwork accurately and efficiently`,
+            title: "What is MyBabu?",
+            content: `MyBabu is an online platform that connects you with experts to help you complete government paperwork accurately and efficiently`,
         },
         {
             title: " Who are the 'Babus'",
@@ -42,9 +42,9 @@ function FAQ() {
     <div className='w-[100%] bg-[#2B2D75]'>
         
          {/* Heading Div  */}
-        <div className='w-[50%] mx-auto pt-[2%]'>
-            <h1 className='flex text-white mx-auto font-bold justify-center text-[3rem]'>FAQ's</h1>
-            <p className='flex mx-auto text-slate-400 font-semibold justify-center text-[1.5rem]'>This section helps visitors or users quickly find answers to common queries without needing to contact customer support.</p>
+        <div className='md:w-[50%] w-[80%] mx-auto pt-[2%]'>
+            <h1 className='flex text-white mx-auto font-bold justify-center md:text-[3rem] text-[1.5rem]'>FAQ's</h1>
+            <p className='flex mx-auto text-slate-400 font-semibold justify-center text-[0.8rem] md:text-[1.5rem]'>This section helps visitors or users quickly find answers to common queries without needing to contact customer support.</p>
         </div>
 
         {/* questions grid  */}

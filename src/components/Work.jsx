@@ -76,7 +76,7 @@ function Work() {
           </div>
         </div>
         {/* Work Card 4 */}
-        <div className="p-4 hover:cursor-pointer hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
+        <div className="p-4 hover:cursor-pointer h-[300px] hover:-translate-y-2 transition-all duration-300 work-card rounded-lg">
           <div className="flex justify-between">
             <h1 className="text-slate-500 text-[2rem] font-bold">Track Your Progress</h1>
             <GiProgression  className="text-[3rem] lg:mt-[6%]" />
