@@ -6,41 +6,41 @@ function MyBabu() {
   return (
     <div className="">
       {/* Hero Section 1 */}
-      <div className="w-[60%] mt-[4%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
+      <div className="lg:w-[60%] md:w-[70%] sm:w-[40%] md:mt-[8%] sm:mt-[10%] mt-[18%] lg:mt-[6%] mb-7 flex items-stretch  mx-auto pt-[4%] gap-x-[2%] ">
         {/* left text div  */}
-        <div className="bg-white w-[60%] p-[4%]  rounded-3xl flex flex-col ">
+        <div className="bg-white md:w-[80%] sm:w-[40%] lg:w-[60%] p-[4%]  rounded-3xl flex flex-col ">
           {/* heading div  */}
           <div>
             <h1
-              className=" font-sans  text-[36px]"
+              className=" font-sans text-[20px] md:text-[25px] sm:text-[20px] lg:text-[36px]"
               // style={{ fontFamily: "Protest Strike, sans-serif" }}
             >
               Welcome to my babu - Your Personal Bureaucracy Personal Assistant
             </h1>
           </div>
 
-          <div className="text-[20px] mt-2">
+          <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
             <p>
               Let my babu help you to navigate the maze of government paperwork
               effortlessly.
             </p>
           </div>
 
-          <div className="text-[20px] mt-2">
+          <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
             <p>
               Are you tired of waiting in long queues and struggling with
               confusing forms ?
             </p>
           </div>
 
-          <div className="text-[20px] mt-2">
+          <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
             <p>
               My babu connect you with experianced helpers who understand the
               ins and out of the government procedure.
             </p>
           </div>
 
-          <div className="text-[20px] mt-2">
+          <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
             <p>
               Weather it applying for licenses,filling documents or handling any
               government related paperwork , we've got you covered.
@@ -49,7 +49,7 @@ function MyBabu() {
         </div>
 
         {/* right image div  */}
-        <div className=" w-[50%] flex items-stretch mt-[5%] ">
+        <div className=" sm:w-[30%]  md:w-[60%] lg:w-[50%] flex items-stretch mt-[5%] ">
           <img
             src={User}
             alt="User Image"
@@ -60,9 +60,9 @@ function MyBabu() {
 
       {/* Hero Section 2  */}
       <div className="bg-[#F8F7F1]">
-        <div className="w-[60%] pb-[4%] flex mx-auto pt-[4%] gap-x-[2%] ">
+        <div className="lg:w-[60%]  md:w-[70%] sm:w-[80%] pb-[4%] flex mx-auto pt-[4%] gap-x-[2%]">
           {/* Left image div  */}
-          <div className=" w-[48%] flex items-stretch ml-[3%]  ">
+          <div className=" sm:w-[30%]  md:w-[60%] lg:w-[50%] flex items-stretch ">
             <img
               src={PersonalTraits}
               alt="User Image"
@@ -71,25 +71,25 @@ function MyBabu() {
           </div>
 
           {/* Right text div  */}
-          <div className="bg-black text-white w-[50%] p-[4%]  rounded-3xl flex flex-col gap-y-7">
+          <div className="bg-black text-white md:w-[80%]  sm:w-[40%] lg:w-[60%] p-[4%]  rounded-3xl flex flex-col ">
             {/* heading div  */}
             <div className="w-full">
               <h1
-                className=" text-[36px] font-sans flex justify-center"
+                className="font-sans text-[20px] md:text-[30px] sm:text-[25px] lg:text-[36px]"
                 // style={{ fontFamily: "Protest Strike, sans-serif" }}
               >
                 Who We Are
               </h1>
             </div>
 
-            <div className="text-[20px] font-sans mt-2 flex justify-center">
+            <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
               <p>
                 At mybabu, we believe that dealing with government paperwork
                 shouldn’t be a hassle.
               </p>
             </div>
 
-            <div className="text-[20px] mt-2 font-sans">
+            <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
               <p>
                 Founded with the vision of simplifying bureaucracy for every
                 Indian citizen, our platform bridges the gap between you and
@@ -97,7 +97,7 @@ function MyBabu() {
               </p>
             </div>
 
-            <div className="text-[20px] mt-2 font-sans">
+            <div className="md:text-[16px] sm:text-[12px] text-[10px] lg:text-[20px] mt-2">
               <p>
                 Our trusted network of 'Babus' (paperwork assistants) are here
                 to guide you every step of the way.
