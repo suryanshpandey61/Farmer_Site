@@ -41,7 +41,7 @@ function App() {
         <FAQ/>
       </div>
 
-      <div id='contactus' className='pt-[7%]'>
+      <div id='contactus' className='pt-[9%]'>
         <Contactus/>
       </div>
 
