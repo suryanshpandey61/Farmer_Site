@@ -112,10 +112,10 @@ function Contactus() {
       <div className="bg-[#4C55D2] mt-[2%]">
         {/* Quick Links  Div  */}
         <div className="w-[100%]">
-          <div className="flex mx-auto justify-center items-center gap-x-[1%]  pt-[2%]">
+          {/* <div className="flex mx-auto justify-center items-center gap-x-[1%]  pt-[2%]">
             <h1 className="text-white md:text-[3rem] text-[2rem] font-bold">Navigate</h1>
             <GrNavigate className="md:text-[3rem] text-[2rem] text-white" />
-          </div>
+          </div> */}
           {/* links div  */}
           <div className="text-white w-[100%] gap-x-[3%] md:gap-x-[5%] mt-[2%] flex  justify-center text-[1rem] md:text-[1.5rem] ">
             <div>
@@ -173,7 +173,9 @@ function Contactus() {
         {/* Copyrigth and Socia media links icons div  */}
         <div className="w-[80%]  flex md:flex-row flex-col justify-between items-center mx-auto mt-[2%] pb-[4%]">
           {/* left div for icons  */}
-          <div className="flex mb-2 w-[50%] text-white text-[1.5rem] md:text-[2rem] gap-x-[6%] md:gap-x-[4%]">
+          <div className="w-[50%]">
+            <h1 className="md:text-[1.5rem] md:flex flex-row md:flex-col text-slate-300">Social</h1>
+          <div className="flex mb-2  text-white text-[1.5rem] md:text-[2rem] gap-x-[6%] md:gap-x-[4%]">
             <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
               <FaInstagram />
             </div>
@@ -187,6 +189,8 @@ function Contactus() {
               <CiYoutube />
             </div>
           </div>
+          </div>
+          
 
           {/* rigth div for copyrights  */}
           <div className="text-white md:text-[1.5rem] text-[0.8rem] ">
