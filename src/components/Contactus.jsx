@@ -109,7 +109,7 @@ function Contactus() {
       </div>
 
       {/* get in touch  Social  Media Icons   div , Quick links */}
-      <div className="bg-[#12183A] mt-[2%]">
+      <div className="bg-[#4C55D2] mt-[2%]">
         {/* Quick Links  Div  */}
         <div className="w-[100%]">
           <div className="flex mx-auto justify-center items-center gap-x-[1%]  pt-[2%]">
