@@ -117,7 +117,7 @@ function Contactus() {
             <GrNavigate className="md:text-[3rem] text-[2rem] text-white" />
           </div> */}
           {/* links div  */}
-          <div className="text-white w-[100%] gap-x-[3%] md:gap-x-[5%] mt-[2%] flex  justify-center text-[1rem] md:text-[1.5rem] ">
+          <div className="text-white w-[100%]  gap-x-[3%] md:gap-x-[5%] pt-[2%] flex  justify-center text-[1rem] md:text-[1.5rem] ">
             <div>
               <Link
                 to="mybabu"
@@ -173,28 +173,32 @@ function Contactus() {
         {/* Copyrigth and Socia media links icons div  */}
         <div className="w-[80%]  flex md:flex-row flex-col justify-between items-center mx-auto mt-[2%] pb-[4%]">
           {/* left div for icons  */}
-          <div className="w-[50%]">
-            <h1 className="md:text-[1.5rem] md:flex flex-row md:flex-col text-slate-300">Social</h1>
-          <div className="flex mb-2  text-white text-[1.5rem] md:text-[2rem] gap-x-[6%] md:gap-x-[4%]">
-            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
-              <FaInstagram />
-            </div>
-            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
-              <CiFacebook />
-            </div>
-            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
-              <FaXTwitter />
-            </div>
-            <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
-              <CiYoutube />
+          <div className="w-[50%] flex md:flex-col flex-row gap-x-[5%] ">
+            <h1 className="md:text-[1.5rem]  text-slate-300">Social :</h1>
+            <div className="flex mb-2  text-white text-[1.5rem] md:text-[2rem] gap-x-[6%] md:gap-x-[4%]">
+              <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+                <FaInstagram />
+              </div>
+              <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+                <CiFacebook />
+              </div>
+              <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+                <FaXTwitter />
+              </div>
+              <div className="hover:cursor-pointer hover:text-black hover:bg-white rounded-md transition-all duration-500">
+                <CiYoutube />
+              </div>
             </div>
           </div>
-          </div>
-          
 
           {/* rigth div for copyrights  */}
-          <div className="text-white md:text-[1.5rem] text-[0.8rem] ">
-              Copyright: © 2025 MyBabu. All rights reserved.
+          <div className="text-white md:text-[1.5rem] md:w-[50%] w-[100%] md:justify-start justify-between text-[0.8rem] flex md:flex-row   ">
+           <div>
+           Copyright: © 2025 MyBabu.  
+          </div>
+          <div>
+          All rights reserved.
+          </div> 
           </div>
         </div>
       </div>
