@@ -62,7 +62,7 @@ function Navbar() {
 
       {/* Mobile Menu - when Hamburger is clicked */}
       {isMenuOpen && (
-        <div className="md:hidden absolute rounded-lg right-0 bg-[#12183A] z-50 flex flex-col items-center pt-10 space-y-4">
+        <div className="md:hidden absolute rounded-lg right-0 navbar-bg z-50 flex flex-col items-center pt-10 space-y-4">
           <div className="text-white hover:text-orange-400 hover:cursor-pointer transition-all duration-200">
             <Link to="mybabu" smooth={true} duration={500}>My Babu</Link>
           </div>
