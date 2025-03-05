@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import babuLogo from '../assets/babuLogo.svg';
+import babuLogo from '../assets/babuLogo.png';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,9 +8,9 @@ function Navbar() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
+  // bg-[#12183A]
   return (
-    <div className="text-white font-sans z-50 md:h-[100px] h-[80px] fixed bg-[#12183A] sm:p-2 md:p-3 lg:p-4 flex w-[100%] justify-evenly text-[16px] lg:text-[28px] pt-[1%]">
+    <div className="text-white font-sans z-50 md:h-[100px] h-[80px] fixed navbar-bg  sm:p-2 md:p-3 lg:p-4 flex w-[100%] justify-evenly text-[16px] lg:text-[28px] pt-[1%]">
       {/* Logo */}
       <div className="flex items-center">
         <Link to="mybabu" smooth={true} duration={500}>
