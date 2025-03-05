@@ -170,7 +170,7 @@ function Contactus() {
             </div>
           </div>
         </div>
-        {/* Copyrigth and Socia media links icons div  */}
+        {/* Copyrigth and Social media links icons div  */}
         <div className="w-[80%]  flex md:flex-row flex-col justify-between items-center mx-auto mt-[2%] pb-[4%]">
           {/* left div for icons  */}
           <div className="w-[50%] flex md:flex-col flex-row gap-x-[5%] ">
