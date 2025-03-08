@@ -7,7 +7,7 @@ function Babus() {
   return (
     <div className='w-[100%]'>
  
-       <div className='w-[90%] mx-auto grid lg:grid-cols-4 gap-y-5  grid-cols-2 gap-x-[2%]'>
+       <div className='w-[80%] mx-auto grid lg:grid-cols-4 gap-y-5  grid-cols-2 gap-x-[2%]'>
            {/* Card 1 */}
            <div className='bg-[#FAEBDC] hover:cursor-pointer rounded-xl p-5 hover:shadow-3xl hover:scale-105 duration-300 transition-all '>
             <img src={TrustImage} alt="Trust Image" className='rounded-xl'  />
