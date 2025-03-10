@@ -57,7 +57,7 @@ function Navbar() {
 
       {/* Get Started Button - Desktop View */}
       <div className="bg-slate-500 hidden md:flex sm:px-1 md:px-2 lg:px-4 rounded-2xl hover:cursor-pointer hover:bg-blue-500 transition-all duration-500">
-        <button className="text-[14px] sm:text-[16px] md:text-[20px] lg:text-[20px]">Get Started</button>
+        <button className="text-[14px] sm:text-[16px] md:text-[20px] lg:text-[26px]">Get Started</button>
       </div>
 
       {/* Mobile Menu - when Hamburger is clicked */}
